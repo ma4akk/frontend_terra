@@ -1,7 +1,4 @@
 
-.
-
-/* Стили тегов */
 body{
 	background: url(../img/background.jpg);
 	font-family: 'Tahoma', cursive;
@@ -45,5 +42,52 @@ main {
 h1{
 	font-size: 25px;
 	line-height: 20px;
+}
+
+
+
+
+
+}
+
+form{
+	width: 40%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+form input{
+	width:100%;
+	padding:10px;
+	padding-left:15px;
+	margin-bottom:10px;
+	border:1px solid #abc8e0;
+}
+
+form input:valid{border:1px solid #57bf3c;}
+
+form textarea{
+	width:100%;
+	padding:10px;
+	padding-left:15px;
+	margin-bottom:10px;
+	border:1px solid #abc8e0;
+}
+
+form textarea:valid{border:1px solid #57bf3c;}
+
+form button{
+	align-content: center;
+	background:black;
+	padding:10px;
+	color:#fff;
+	border:none;
+	width:100%;
+}
+
+form button:hover{
+	background:#61abea;
+	transition: all linear .25s;
+	-webkit-transition: all linear .25s;
 }
 
