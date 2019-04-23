@@ -1,0 +1,49 @@
+
+.
+
+/* Стили тегов */
+body{
+	background: url(../img/background.jpg);
+	font-family: 'Tahoma', cursive;
+    font-size: 12.5pt;
+    padding: 10px;
+    margin: 0;
+}
+
+header{
+	background: black;
+	padding: 10px;
+    border-radius: 10px;
+    font-family: 'Tahoma', cursive;
+    font-size: 12.5pt;
+	color: white;
+}
+
+header li{
+	display: inline-block;
+	color:white;
+	margin-right:20px;
+	margin-left:10px;
+}
+
+header .right{
+	float:right;
+}
+
+main {
+	background: aliceblue;
+	padding: 20px;
+	border: 1px solid #e4e4e4;
+	border-bottom: none;
+	color:black;
+    border-radius: 10px;
+	font-family: 'Tahoma', cursive;
+	font-size: 12.5pt;
+
+}
+
+h1{
+	font-size: 25px;
+	line-height: 20px;
+}
+

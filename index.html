@@ -1,1 +1,49 @@
-От тебя плять гавной воняит
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>#</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/w3.css">
+
+
+  </head>
+
+  <body>
+  	<div class="container">
+				<header>
+  			<a href="index.php?page=home"><li>Главная</li></a>
+  			<a href="index.php?page=about"><li>Мужчинам</li></a>
+  			<a href="index.php?page=service"><li>Женщинам</li></a>
+  			<a href="index.php?page=tovari"><li>Детям</li></a>
+  			<a href="index.php?page=contact"><li>Контакты</li></a>
+  			
+			
+			
+		<a href="index.php?page=signup"><li class="right">Регистрация</li></a>
+				<a href="index.php?page=signin"><li class="right">Войти</li></a>        
+		
+
+  		</header>
+		
+  		<main>
+
+      	  		<h1 align="center">Регистрация</h1>
+      <form  action="/registration.php" method="post">
+        <input name="login" type="text" placeholder="Логин" required pattern="[A-Za-z0-9_.]{1,15}$">
+        <input name="email" type="email" placeholder="E-mail" required >
+        <input name="pass1" type="password" placeholder="Пароль" required>
+        <input name="pass2" type="password" placeholder="Повторите пароль" required>
+        <button type="submit" name="submit">Отправить</button>
+      </form>
+        
+  		</main>
+
+
+
+
+  	</div>
+  </body>
+</html>
